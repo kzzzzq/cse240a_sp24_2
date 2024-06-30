@@ -69,7 +69,10 @@ void train_predictor(uint32_t pc, uint32_t target, uint32_t outcome, uint32_t co
 
 // Please add your code below, and DO NOT MODIFY ANY OF THE CODE ABOVE
 // 
-
-
+extern uint64_t T0_usage;
+extern uint64_t T1_usage;
+extern uint64_t T2_usage;
+extern uint64_t T3_usage;
+extern uint64_t T4_usage;
 
 #endif

@@ -152,6 +152,12 @@ int main(int argc, char *argv[])
   float mispredict_rate = 1000 * ((float)mispredictions / (float)num_branches);
   printf("Misprediction Rate: %7.3f\n", mispredict_rate);
 
+  printf("T0 usage: %d\n",T0_usage);
+  printf("T1 usage: %d\n",T1_usage);
+  printf("T2 usage: %d\n",T2_usage);
+  printf("T3 usage: %d\n",T3_usage);
+  printf("T4 usage: %d\n",T4_usage);
+
   // Cleanup
   fclose(stream);
   free(buf);
